@@ -1,6 +1,9 @@
 {
     "icon": "soccer",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "surface",
         "lit"
     ],

@@ -1,0 +1,29 @@
+{
+    "key": "provides",
+    "type": "mcombo",
+    "label": "Needs fulfilled by a community",
+    "placeholder": "food+drink , water, land, ...",
+    "strings": {
+        "options": {
+            "food+drink" : "Food & Drink: Here you can find drinks and something to eat, recently harvested or ready to enjoy.",
+            "water" : "Water: Here you can find drinking water.",
+            "land" : "Land: Here you find land - the land we all need to find shelter and/or to work on.",
+            "mobility" : "Mobility: Here you find possibilities to go from A to B.",
+            "health" : "Health: Here you find what keeps and makes us healthy.",
+            "culture" : "Culture: Here you find cultural events or free space to (self-)organise an event or to perform.",
+            "safety" : "Safety: Here you find places and people that provide a sense of security, support and safety for a short period of time.",
+            "housing" : "Housing: Here you find shelter - for a short time or permanently.",
+            "spaces" : "Free Space: Here you find free spaces to meet, hang out or do whatever you want.",
+            "objects_of_utility" : "Objects of Utility: Here you can get or borrow different tools and other things, that others don't need any longer or only ocassionally use.",
+            "clothes" : "Clothes: Here you can find clothes.",
+            "learning_opportunities" : "Knowledge & Skills: Here you can find things and spaces where knowledge, skills and insights are shared. A space where people learn and research and where you can engage heart, hand and mind.",
+            "energy" : "Energy: Electricity, heating, transportation - all these require energy. On this places energy is provided.",
+            "community" : "Community: A diverse group of people that offers support and empowerment by coming together.",
+            "participation" : "Participation: Here is an opportunity to initiate activities, participate or deliberate on public issues.",
+            "spirituality" : "Spirituality: Here you find spaces, places and groups that pursue a contemplative/spiritual connection.",
+            "telecommunication" : "Telecommunication: This facility provides the infrastructure for telecommunication.",
+            "air" : "Air: Provides the air we all need to breathe."
+        }
+    },
+    "universal": true
+} 

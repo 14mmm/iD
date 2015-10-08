@@ -1,5 +1,11 @@
 {
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
+	"access_clubs",
+	"species",
+	"genus",
         "leaf_type",
         "leaf_cycle",
         "denotation"

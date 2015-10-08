@@ -1,6 +1,10 @@
 {
     "icon": "commercial",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "topic",
+        "identity",
+        "interaction",
         "address",
         "building_area",
         "opening_hours"

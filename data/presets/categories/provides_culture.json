@@ -1,0 +1,12 @@
+{
+    "geometry": "point",
+    "name": "Culture",
+    "icon": "theatre",
+    "members": [
+        "amenity/theatre",
+        "amenity/cinema",
+        "amenity/studio",
+        "tourism/museum",
+        "provides/culture"
+    ]
+}

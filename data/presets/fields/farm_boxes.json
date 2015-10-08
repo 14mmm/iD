@@ -1,0 +1,13 @@
+{
+    "key": "farm_boxes",
+    "type": "combo",
+    "strings" : { 
+        "options": {
+            "pickup" : "Pickup point", 
+            "source" : "Source farm, no pickup",
+            "source_and_pickup" : "Farm, also pickup possible"
+        }
+    },
+    "icon": "farm",
+    "label": "CSA"
+}

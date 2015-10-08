@@ -1,0 +1,27 @@
+mcombo: 
+  änderungen mcombo.js
+    function change() { umgeschrieben, sodass sie input.value korrekt auch bei ; - getrennten Werten auf die OSM-values zurückschreibt
+  änderungen mcombo-title.js
+    function stringsLoaded() {
+      ...
+      combobox.data( umgeschrieben, dass aus dem fields-preset-values beim ersten ":" getrennt wird, der teil davor als label, danach als title
+
+  todo:
+      d3.mcombobox.js umschreiben, dass 3 texte berücksichtigt werden:
+    text für osm-value  d.value
+    text für label      d.label
+    text für title      d.title (unchanged)
+
+what works
+  displaying only "label" in drop down items
+  assigning the "value" to osm-tag
+
+what doesn't work -> FIXED was only one line in mcombo.tags(), which has set value if strings[] matched - took value unchanged
+  single entry: "whole d.label + d.title" get set as value when only a single one is left...
+  when a single value is set, choosing the right "checked" items in list doesn't work
+
+  bei leerem feld: ein einzelnes anklicken, es wird d.label + d.title als input.value gesetzt
+    onclick: "toggle()" wird aufgerufen
+      invertiert "selected"
+      render()
+      setze input.property('value') neu, calle danach 'change'

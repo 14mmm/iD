@@ -1,4 +1,9 @@
 {
+    "fields": [
+        "provides",
+        "identity",
+        "interaction"
+    ],
     "icon": "harbor",
     "geometry": [
         "point",

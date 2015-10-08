@@ -1,9 +1,16 @@
 {
     "fields": [
+        "provides",
+        "topic",
+        "identity",
+        "interaction",
         "address"
     ],
     "geometry": [
-        "point"
+        "point",
+        "vertex",
+        "area"
+
     ],
     "tags": {
         "addr:housenumber": "*"

@@ -55,6 +55,241 @@
             "highway/steps"
         ]
     },
+    "category-pois": {
+        "geometry": "point",
+        "name": "POIs (amenities)",
+        "icon": "circle-stroked",
+        "members": [
+            "amenity/library",
+            "amenity/public_bookcase",
+            "amenity/social_facility",
+            "amenity/theatre",
+            "amenity/car_sharing",
+            "amenity/studio",
+            "amenity/bicycle_rental",
+            "amenity/community_centre",
+            "amenity/school",
+            "amenity/university",
+            "amenity/kindergarten",
+            "amenity/college",
+            "amenity/drinking_water",
+            "leisure/garden",
+            "leisure/hackerspace",
+            "natural/tree",
+            "club"
+        ]
+    },
+    "category-provides_clothes": {
+        "geometry": "point",
+        "name": "Clothes",
+        "icon": "clothing-store",
+        "members": [
+            "shop/second_hand",
+            "shop/clothes",
+            "shop/boutique",
+            "shop/tailor",
+            "amenity/givebox",
+            "provides/clothes"
+        ]
+    },
+    "category-provides_community": {
+        "geometry": "point",
+        "name": "Community",
+        "icon": "school",
+        "members": [
+            "leisure/communitygarden",
+            "amenity/community_centre",
+            "amenity/volkskuche",
+            "provides/community"
+        ]
+    },
+    "category-provides_culture": {
+        "geometry": "point",
+        "name": "Culture",
+        "icon": "theatre",
+        "members": [
+            "amenity/theatre",
+            "amenity/cinema",
+            "amenity/studio",
+            "tourism/museum",
+            "provides/culture"
+        ]
+    },
+    "category-provides_energy": {
+        "geometry": "point",
+        "name": "Energy",
+        "icon": "fire-station",
+        "members": [
+            "power/generator",
+            "amenity/charging_station",
+            "provides/energy"
+        ]
+    },
+    "category-provides_food+drink": {
+        "geometry": "point",
+        "name": "Food + Drink",
+        "icon": "restaurant",
+        "members": [
+            "leisure/communitygarden",
+            "farm_boxes",
+            "club/foodcoop",
+            "amenity/volkskuche",
+            "amenity/social_facility/food_bank",
+            "amenity/marketplace",
+            "natural/tree",
+            "amenity/restaurant",
+            "amenity/bar",
+            "amenity/pub",
+            "amenity/cafe",
+            "amenity/biergarten",
+            "amenity/fast_food",
+            "shop/bakery",
+            "shop/butcher",
+            "shop/convenience",
+            "shop/supermarket",
+            "shop/greengrocer",
+            "shop/farm",
+            "shop/beverages",
+            "shop/wine",
+            "shop/alcohol",
+            "shop",
+            "provides/food+drink"
+        ]
+    },
+    "category-provides_health": {
+        "geometry": "point",
+        "name": "Health",
+        "icon": "hospital",
+        "members": [
+            "amenity/pharmacy",
+            "amenity/doctor",
+            "amenity/dentist",
+            "amenity/clinic",
+            "amenity/hospital",
+            "shop/massage",
+            "office/therapist",
+            "office/physician",
+            "emergency/ambulance_station",
+            "amenity/veterinary",
+            "provides/health"
+        ]
+    },
+    "category-provides_housing": {
+        "geometry": "point",
+        "name": "Housing",
+        "icon": "building",
+        "members": [
+            "amenity/social_facility/homeless_shelter",
+            "tourism/hotel",
+            "tourism/hostel",
+            "tourism/motel",
+            "tourism/guest_house",
+            "tourism/chalet",
+            "tourism/camp_site",
+            "tourism/caravan_site",
+            "provides/housing"
+        ]
+    },
+    "category-provides_land": {
+        "geometry": "point",
+        "name": "Land",
+        "icon": "land-use",
+        "members": [
+            "landuse/greenfield",
+            "landuse/brownfield",
+            "provides/land"
+        ]
+    },
+    "category-provides_learning_opportunities": {
+        "geometry": "point",
+        "name": "Knowledge & Skills",
+        "icon": "library",
+        "members": [
+            "amenity/public_bookcase",
+            "amenity/library",
+            "amenity/university",
+            "amenity/college",
+            "amenity/school",
+            "leisure/hackerspace",
+            "provides/learning_opportunities"
+        ]
+    },
+    "category-provides_mobility": {
+        "geometry": "point",
+        "name": "Mobility",
+        "icon": "bicycle",
+        "members": [
+            "amenity/bicycle_rental",
+            "amenity/bicycle_repair_station",
+            "amenity/car_rental",
+            "amenity/car_sharing",
+            "provides/mobility"
+        ]
+    },
+    "category-provides_objects_of_utility": {
+        "geometry": "point",
+        "name": "Objects of Utility",
+        "icon": "logging",
+        "members": [
+            "amenity/bicycle_repair_station",
+            "shop/doityourself",
+            "leisure/hackerspace",
+            "amenity/fablab",
+            "provides/objects_of_utility"
+        ]
+    },
+    "category-provides_participation": {
+        "geometry": "point",
+        "name": "Participation",
+        "icon": "town-hall",
+        "members": [
+            "club",
+            "amenity/community_centre",
+            "amenity/givebox",
+            "provides/participation"
+        ]
+    },
+    "category-provides_safety": {
+        "geometry": "point",
+        "name": "Safety",
+        "icon": "police",
+        "members": [
+            "amenity/police",
+            "amenity/prison",
+            "provides/safety"
+        ]
+    },
+    "category-provides_spaces": {
+        "geometry": "point",
+        "name": "Spaces",
+        "icon": "circle-stroked",
+        "members": [
+            "shop/vacant",
+            "provides/spaces"
+        ]
+    },
+    "category-provides_spirituality": {
+        "geometry": "point",
+        "name": "Spirituality",
+        "icon": "place-of-worship",
+        "members": [
+            "amenity/place_of_worship",
+            "historic/wayside_cross",
+            "historic/wayside_shrine",
+            "provides/spirituality"
+        ]
+    },
+    "category-provides_water": {
+        "geometry": "point",
+        "name": "Water",
+        "icon": "water",
+        "members": [
+            "amenity/drinking_water",
+            "amenity/fountain",
+            "natural/spring",
+            "provides/water"
+        ]
+    },
     "category-rail": {
         "geometry": "line",
         "name": "Rail",
@@ -123,6 +358,30 @@
             "type/route/detour",
             "type/route_master",
             "type/route"
+        ]
+    },
+    "category-shopping": {
+        "geometry": "point",
+        "name": "Shopping / Dinner",
+        "icon": "restaurant",
+        "members": [
+            "amenity/marketplace",
+            "amenity/restaurant",
+            "amenity/bar",
+            "amenity/pub",
+            "amenity/cafe",
+            "amenity/biergarten",
+            "amenity/fast_food",
+            "amenity/community_centre",
+            "shop/art",
+            "shop/bakery",
+            "shop/bicycle",
+            "shop/books",
+            "shop/boutique",
+            "shop/butcher",
+            "shop/clothes",
+            "shop/convenience",
+            "shop"
         ]
     },
     "category-water-area": {

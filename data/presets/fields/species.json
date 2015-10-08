@@ -1,0 +1,6 @@
+{
+    "key": "species",
+    "type": "localized",
+    "label": "Species: scientific name",
+    "placeholder": "main key latin"
+}

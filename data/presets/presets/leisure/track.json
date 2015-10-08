@@ -1,6 +1,9 @@
 {
     "icon": "highway-road",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "surface",
         "sport_racing",
         "lit",

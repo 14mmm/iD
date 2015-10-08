@@ -1,5 +1,5 @@
 {
     "key": "vending",
-    "type": "combo",
+    "type": "mcombo",
     "label": "Type of Goods"
 }

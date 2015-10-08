@@ -1,6 +1,10 @@
 {
     "icon": "bank",
     "fields": [
+        "provides",
+        "topic",
+        "identity",
+        "interaction",
         "atm",
         "operator",
         "address",

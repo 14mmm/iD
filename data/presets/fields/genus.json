@@ -1,0 +1,6 @@
+{
+    "key": "genus",
+    "type": "localized",
+    "label": "Genus: low level taxonomy rank",
+    "placeholder": "main key latin"
+}

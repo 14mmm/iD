@@ -1,5 +1,8 @@
 {
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "surface"
     ],
     "geometry": [

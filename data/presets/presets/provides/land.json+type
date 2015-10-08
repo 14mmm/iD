@@ -1,0 +1,22 @@
+{
+    "fields": [
+        "name",
+        "description",
+        "provides",
+        "provides:land",
+        "topic",
+        "identity",
+        "interaction",
+        "contact",
+        "address"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "provides": "land"
+    },
+    "name": "Other POI providing Land"
+}

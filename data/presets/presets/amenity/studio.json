@@ -1,12 +1,16 @@
 {
     "icon": "music",
     "fields": [
+        "provides",
+        "identity",
+        "interaction",
         "studio_type",
         "address",
         "building_area"
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
     "terms": [

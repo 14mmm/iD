@@ -1,0 +1,13 @@
+{
+    "key": "provides:land",
+    "type": "mcombo",
+    "label": "Type of Land",
+    "placeholder": "rural, urban, rurban",
+    "strings": {
+        "options": {
+            "rural" : "Rural land",
+            "urban" : "Urban land",
+            "rurban" : "Rural/Urban (rurban) land"
+        }
+    }
+} 

@@ -1,11 +1,16 @@
 {
     "icon": "school",
     "fields": [
+	"provides",
+        "topic",
+        "identity",
+        "interaction",
         "operator",
         "address"
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
     "terms": [

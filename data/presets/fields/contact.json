@@ -1,0 +1,39 @@
+{
+    "keys": [
+        "contact:website",
+        "contact:fax",
+        "contact:phone",
+        "contact:email",
+        "contact:name"
+    ],
+    "reference": {"key": "contact"},
+    "type": "access",
+    "label": "Contact data",
+    "icon": "telephone",
+    "universal": true,
+    "placeholder": "Unknown",
+    "strings": {
+        "types": {
+          "contact:website": "Website",
+          "contact:phone": "Telephone Nr.",
+          "contact:fax": "Fax Nr.",
+          "contact:email": "Email Address",
+          "contact:name": "Contact Person Name"
+        },
+	"options": {
+	    "+49 ...": {
+		    "title": "+49 1234 56789-0",
+		    "description": "phone/fax nrs. with int. prefix, no local (0)!"
+		 },
+		"http://": {
+			"title": "http://",
+			"description": "Start Web addresses with http://"
+		},
+		"https://": {
+			"title": "http://",
+			"description": "Start Secure Web addresses with https://"
+		}
+	}
+
+    }
+}

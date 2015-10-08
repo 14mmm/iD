@@ -1,0 +1,16 @@
+{
+    "geometry": "point",
+    "name": "Housing",
+    "icon": "building",
+    "members": [
+        "amenity/social_facility/homeless_shelter",
+        "tourism/hotel",
+        "tourism/hostel",
+        "tourism/motel",
+        "tourism/guest_house",
+        "tourism/chalet",
+        "tourism/camp_site",
+        "tourism/caravan_site",
+        "provides/housing"
+    ]
+}

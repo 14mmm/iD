@@ -1,6 +1,9 @@
 {
     "icon": "golf",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "operator",
         "address",
         "opening_hours"

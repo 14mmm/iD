@@ -1,0 +1,24 @@
+{
+    "key": "identity",
+    "type": "mcombo",
+    "label": "Self-Description of a Community",
+    "placeholder": "Commons, Transition Initiative, ...",
+    "strings": {
+        "options": {
+            "solidarity_economy" : "Solidarity Economy: Organisations, projects and enterprises meeting the principles of Solidarity Economy based on the core ideas of shared ownership and people before profit.",
+            "transition_initiative" : "Transition Initative: A transition initiative is a grassroot community project that seeks to build resilience in response to peak oil, climate destruction, and economic instability by creating a local group that uphold the values of the transition network.",
+            "permaculture" : "Permaculture: Initiatives, and projects based on the design principles of permaculture.",
+            "demonetized_economy" : "Demonetized Economy: Places where people live or attempt to live without money. Projects and initiatives that avoid commodity exchange and conventional money.",
+            "community_based_currencies" : "Community Based Currencies: Initiatives that design and manage community based and -supported, local and social currencies, which are not controlled by a national government, and are intended to be traded only in a particular area. ",
+            "commons" : "Commons: \"Commons\"-based communities collectively and democratically produce, steward, develop or manage shared places, projects, resources, assets or knowledge. See also Eight Design Principles for Managing a Commons set forth by Nobel Prize Laureate Elinor Ostrom.",
+            "economy_for_the_common_good" : "Economy for the Common Good: Local chapters of the economy for the common good and corporate bodies that have created a certified balance of the economy for the common good.",
+            "collaborative_economy" : "Collaborative Economy: The collaborative economy consists of initiatives based on horizontal networks and participation of a community.",
+            "global_ecovillage_network" : "Global Ecovillage Network: Initiatives that are part of the Global Ecovillage Network.",
+            "degrowth" : "Degrowth: Organisations and projects that identify themselves as being part of degrowth and its synonyms in different languages as for instance décroissance.",
+            "subsistence_economy" : "Subsistence Economy: Acitivities for ones own livelyhood and well-being not producing commodities to be sold at the market.",
+            "p2p_economy" : "P2P Economy: The peer-to-peer economy consists of people who pool work, ideas and resources to produce something in self-administrated and decentralized associations, instead of conventional seller/buyer market relationships. ",
+            "ecovillage" : "Ecovillage, individual."
+        }
+    },
+    "universal": true
+} 

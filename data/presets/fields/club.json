@@ -1,0 +1,43 @@
+{
+    "key": "club",
+    "type": "combo",
+    "label": "Club",
+    "placeholder": "Yes, Sports, Artist, Chess, ...",
+    "universal": true,
+    "strings": {
+        "options": {
+            "yes": "Yes: If not known further",
+            "sport": "Sports club",
+	    "art": "Artist club",
+	    "astronomy": "An amateur astronomy club",
+	    "automobile": "Automobile club",
+	    "bicycle": "Promote and enjoy bicycle usage (for competitions see sport + sport=cycling)",   
+	    "charity": "A club devoted to charitable activities: blood/tissues donation, humanitarian,..",
+	    "chess": "Chess club",
+	    "cinema": "Cinema club",
+	    "cooking": "Cooking club",
+	    "culture": "A cultural club that doesn't fit in other categories. Consider to use a specific new value instead of this.",                "doityourself": "Do it yourself club (electronics, clothes,..)",
+	    "elderly": "A club restricted to aged people",
+	    "ethnic": "A club to promote ethnic or inter-ethnic culture.",
+	    "fan": "A fanclub",
+	    "fishing": "(for competitions see sport + sport=fishing)",
+	    "freemasonry": "A Masonic Lodge/temple/hall used by Freemasons.",
+	    "game": "A club devoted to games.",
+	    "board_games": "A club devoted to board games.",
+	    "history": "A club devoted to (local) history and traditions",
+	    "hunting": "(see also sport+sport=shooting)",
+	    "linux": "A Linux User Group (LUG)",
+	    "music": "A club where people sing or play music",
+	    "nature": "A club devoted to nature study: mushrooms, rocks, flowers, birdwatching,and so on. Consider if create specific values for each of these.",                                                                                                                             "nudism": "Nudist Club",
+	    "photography": "Photographer club",
+	    "politics": "politic club",
+	    "religion": "+ religion=* + denomination=*",
+	    "scout": "A scout group base",
+	    "smoke": "smoker's club",
+	    "sport": "+ sport=*",
+	    "theatre": "theatre club",
+	    "veterans": "A club of war veterans (e.g.: in italy \"Gruppo alpini\" or \"Gruppo partigiani\").",
+	    "youth": "A club restricted to young people"
+        }
+    }
+}

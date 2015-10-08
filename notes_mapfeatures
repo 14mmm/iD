@@ -1,0 +1,37 @@
+function drawList(selection, data, type, name, change, active)
+  # type = "checkbox" || "radio"
+  # name e.g. 'feature' for "Map Features" 
+  # change
+  # active - this we want set to disabled!
+    property indeterminate checks for autoHiddenFeature(d)...
+      is context.features().autoHidden(d);
+        js/id/renderer/features.js: # diese Datei DEFINIERT features...
+
+          defines each feature via function defineFeature(
+            k, # index, string
+            filter #filter-function
+            ,max)
+          holds an object{} _features - indexed via k
+            each entry has function autoHidden()
+              calls this.hidden()
+                calls context.editable()
+            has a function enable()/disable():
+       -> müsste callen:
+        iD.Features._features['namestring:"k"'].disable(); #NOK
+        iD.features.disable('namestring:"k"');
+          foreach major_roads minor_roads paths boundaries water rail power
+         
+
+
+  gets selection of items
+
+  var enter = items.enter()
+
+drawList gets called by function update()  {
+  featureList.call(drawList, ....
+
+  featureList = featureContainer.append('ul').attr('class', 'layer-list');
+  # is a var in class iD.ui.MapData(context)'s map_data class
+  
+  
+  OK - fixed directly in features.js

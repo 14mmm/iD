@@ -1,0 +1,11 @@
+{
+    "geometry": "point",
+    "name": "Participation",
+    "icon": "town-hall",
+    "members": [
+        "club",
+        "amenity/community_centre",
+        "amenity/givebox",
+        "provides/participation"
+    ]
+}

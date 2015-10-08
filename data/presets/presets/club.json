@@ -1,0 +1,22 @@
+{
+    "fields": [
+        "description",
+        "provides",
+        "topic",
+        "identity",
+        "interaction",
+        "club",
+        "fee",
+        "address",
+        "contact"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "club": "*"
+    },
+    "name": "Club"
+}

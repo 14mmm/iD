@@ -546,6 +546,57 @@
             "category-path": {
                 "name": "Path"
             },
+            "category-pois": {
+                "name": "POIs (amenities)"
+            },
+            "category-provides_clothes": {
+                "name": "Clothes"
+            },
+            "category-provides_community": {
+                "name": "Community"
+            },
+            "category-provides_culture": {
+                "name": "Culture"
+            },
+            "category-provides_energy": {
+                "name": "Energy"
+            },
+            "category-provides_food+drink": {
+                "name": "Food + Drink"
+            },
+            "category-provides_health": {
+                "name": "Health"
+            },
+            "category-provides_housing": {
+                "name": "Housing"
+            },
+            "category-provides_land": {
+                "name": "Land"
+            },
+            "category-provides_learning_opportunities": {
+                "name": "Knowledge & Skills"
+            },
+            "category-provides_mobility": {
+                "name": "Mobility"
+            },
+            "category-provides_objects_of_utility": {
+                "name": "Objects of Utility"
+            },
+            "category-provides_participation": {
+                "name": "Participation"
+            },
+            "category-provides_safety": {
+                "name": "Safety"
+            },
+            "category-provides_spaces": {
+                "name": "Spaces"
+            },
+            "category-provides_spirituality": {
+                "name": "Spirituality"
+            },
+            "category-provides_water": {
+                "name": "Water"
+            },
             "category-rail": {
                 "name": "Rail"
             },
@@ -557,6 +608,9 @@
             },
             "category-route": {
                 "name": "Route"
+            },
+            "category-shopping": {
+                "name": "Shopping / Dinner"
             },
             "category-water-area": {
                 "name": "Water"
@@ -602,6 +656,10 @@
                         "description": "Access permitted only to reach a destination"
                     }
                 }
+            },
+            "access_clubs": {
+                "label": "Access",
+                "placeholder": "yes"
             },
             "access_simple": {
                 "label": "Access",
@@ -739,11 +797,75 @@
                     "anticlockwise": "Counterclockwise"
                 }
             },
+            "club": {
+                "label": "Club",
+                "placeholder": "Yes, Sports, Artist, Chess, ...",
+                "options": {
+                    "yes": "Yes: If not known further",
+                    "sport": "+ sport=*",
+                    "art": "Artist club",
+                    "astronomy": "An amateur astronomy club",
+                    "automobile": "Automobile club",
+                    "bicycle": "Promote and enjoy bicycle usage (for competitions see sport + sport=cycling)",
+                    "charity": "A club devoted to charitable activities: blood/tissues donation, humanitarian,..",
+                    "chess": "Chess club",
+                    "cinema": "Cinema club",
+                    "cooking": "Cooking club",
+                    "culture": "A cultural club that doesn't fit in other categories. Consider to use a specific new value instead of this.",
+                    "doityourself": "Do it yourself club (electronics, clothes,..)",
+                    "elderly": "A club restricted to aged people",
+                    "ethnic": "A club to promote ethnic or inter-ethnic culture.",
+                    "fan": "A fanclub",
+                    "fishing": "(for competitions see sport + sport=fishing)",
+                    "freemasonry": "A Masonic Lodge/temple/hall used by Freemasons.",
+                    "game": "A club devoted to games.",
+                    "board_games": "A club devoted to board games.",
+                    "history": "A club devoted to (local) history and traditions",
+                    "hunting": "(see also sport+sport=shooting)",
+                    "linux": "A Linux User Group (LUG)",
+                    "music": "A club where people sing or play music",
+                    "nature": "A club devoted to nature study: mushrooms, rocks, flowers, birdwatching,and so on. Consider if create specific values for each of these.",
+                    "nudism": "Nudist Club",
+                    "photography": "Photographer club",
+                    "politics": "politic club",
+                    "religion": "+ religion=* + denomination=*",
+                    "scout": "A scout group base",
+                    "smoke": "smoker's club",
+                    "theatre": "theatre club",
+                    "veterans": "A club of war veterans (e.g.: in italy \"Gruppo alpini\" or \"Gruppo partigiani\").",
+                    "youth": "A club restricted to young people"
+                }
+            },
             "collection_times": {
                 "label": "Collection Times"
             },
             "construction": {
                 "label": "Type"
+            },
+            "contact": {
+                "label": "Contact data",
+                "placeholder": "Unknown",
+                "types": {
+                    "contact:website": "Website",
+                    "contact:phone": "Telephone Nr.",
+                    "contact:fax": "Fax Nr.",
+                    "contact:email": "Email Address",
+                    "contact:name": "Contact Person Name"
+                },
+                "options": {
+                    "+49 ...": {
+                        "title": "+49 1234 56789-0",
+                        "description": "phone/fax nrs. with int. prefix, no local (0)!"
+                    },
+                    "http://": {
+                        "title": "http://",
+                        "description": "Start Web addresses with http://"
+                    },
+                    "https://": {
+                        "title": "http://",
+                        "description": "Start Secure Web addresses with https://"
+                    }
+                }
             },
             "country": {
                 "label": "Country"
@@ -799,6 +921,24 @@
             },
             "except": {
                 "label": "Exceptions"
+            },
+            "fair_trade": {
+                "label": "Fair-Trade",
+                "placeholder": "Yes, No, Fair-Trade Only...",
+                "options": {
+                    "yes": "Yes: Good choice of fair-trade products in the whole selection, but not solely",
+                    "no": "No",
+                    "only": "Fair-Trade Only",
+                    "limited": "Limited: only selected products are fair-trade"
+                }
+            },
+            "farm_boxes": {
+                "label": "CSA",
+                "options": {
+                    "pickup": "Pickup point",
+                    "source": "Source farm, no pickup",
+                    "source_and_pickup": "Farm, also pickup possible"
+                }
             },
             "fax": {
                 "label": "Fax",
@@ -870,6 +1010,10 @@
             "generator/type": {
                 "label": "Type"
             },
+            "genus": {
+                "label": "Genus: low level taxonomy rank",
+                "placeholder": "main key latin"
+            },
             "golf_hole": {
                 "label": "Reference",
                 "placeholder": "Hole number (1-18)"
@@ -894,6 +1038,28 @@
             "icao": {
                 "label": "ICAO"
             },
+            "identity": {
+                "label": "Self-Description of a Community",
+                "placeholder": "Commons, Transition Initiative, ...",
+                "options": {
+                    "solidarity_economy": "Solidarity Economy: Organisations, projects and enterprises meeting the principles of Solidarity Economy based on the core ideas of shared ownership and people before profit.",
+                    "transition_initiative": "Transition Initative: A transition initiative is a grassroot community project that seeks to build resilience in response to peak oil, climate destruction, and economic instability by creating a local group that uphold the values of the transition network.",
+                    "permaculture": "Permaculture: Initiatives, and projects based on the design principles of permaculture.",
+                    "demonetized_economy": "Demonetized Economy: Places where people live or attempt to live without money. Projects and initiatives that avoid commodity exchange and conventional money.",
+                    "community_based_currencies": "Community Based Currencies: Initiatives that design and manage community based and -supported, local and social currencies, which are not controlled by a national government, and are intended to be traded only in a particular area. ",
+                    "commons": "Commons: \"Commons\"-based communities collectively and democratically produce, steward, develop or manage shared places, projects, resources, assets or knowledge. See also Eight Design Principles for Managing a Commons set forth by Nobel Prize Laureate Elinor Ostrom.",
+                    "economy_for_the_common_good": "Economy for the Common Good: Local chapters of the economy for the common good and corporate bodies that have created a certified balance of the economy for the common good.",
+                    "collaborative_economy": "Collaborative Economy: The collaborative economy consists of initiatives based on horizontal networks and participation of a community.",
+                    "global_ecovillage_network": "Global Ecovillage Network: Initiatives that are part of the Global Ecovillage Network.",
+                    "degrowth": "Degrowth: Organisations and projects that identify themselves as being part of degrowth and its synonyms in different languages as for instance décroissance.",
+                    "subsistence_economy": "Subsistence Economy: Acitivities for ones own livelyhood and well-being not producing commodities to be sold at the market.",
+                    "p2p_economy": "P2P Economy: The peer-to-peer economy consists of people who pool work, ideas and resources to produce something in self-administrated and decentralized associations, instead of conventional seller/buyer market relationships. ",
+                    "ecovillage": "Ecovillage, individual."
+                }
+            },
+            "identity_combotype": {
+                "label": "Self-description of a Community"
+            },
             "incline": {
                 "label": "Incline"
             },
@@ -906,6 +1072,24 @@
             },
             "information": {
                 "label": "Type"
+            },
+            "interaction": {
+                "label": "Mode of Interaction",
+                "placeholder": "bartering, cousing, ...",
+                "options": {
+                    "bartering": "Bartering: Here you can exchange something: give & take.",
+                    "sharing": "Sharing: Here you can share material (tools, books, etc.) and immaterial (time, knowledge, ideas) matters.",
+                    "lending": "Lending: Here you can borrow something (contributions towards costs).",
+                    "renting": "Renting: Here you can rent something.",
+                    "gifting": "Gifting: Here you can give and receive.",
+                    "rebuying_reselling": "Rebuy & Resell: Here you can get and leave things that are not needed anymore. Second-hand.",
+                    "cousing": "Co-Use: Here you can use (some)things with others.",
+                    "diy_and_dit": "Do It Yourself & Together: Here you can produce or repair, upcycle or downcycle something by yourself or together with others.",
+                    "buying_and_selling": "Buy & Sell: Here you can buy and sell things."
+                }
+            },
+            "interaction_combotype": {
+                "label": "Mode of Interaction"
             },
             "internet_access": {
                 "label": "Internet Access",
@@ -1046,6 +1230,16 @@
             "operator": {
                 "label": "Operator"
             },
+            "organic": {
+                "label": "Organic",
+                "placeholder": "Yes, No, Organic Only...",
+                "options": {
+                    "yes": "Yes: Good choice of organic products in the whole selection, but not solely",
+                    "no": "No",
+                    "only": "Organic Only",
+                    "limited": "Limited: only selected products are organic"
+                }
+            },
             "par": {
                 "label": "Par",
                 "placeholder": "3, 4, 5..."
@@ -1116,6 +1310,42 @@
             "power": {
                 "label": "Type"
             },
+            "provides": {
+                "label": "Needs fulfilled by a community",
+                "placeholder": "food+drink , water, land, ...",
+                "options": {
+                    "food+drink": "Food & Drink: Here you can find drinks and something to eat, recently harvested or ready to enjoy.",
+                    "water": "Water: Here you can find drinking water.",
+                    "land": "Land: Here you find land - the land we all need to find shelter and/or to work on.",
+                    "mobility": "Mobility: Here you find possibilities to go from A to B.",
+                    "health": "Health: Here you find what keeps and makes us healthy.",
+                    "culture": "Culture: Here you find cultural events or free space to (self-)organise an event or to perform.",
+                    "safety": "Safety: Here you find places and people that provide a sense of security, support and safety for a short period of time.",
+                    "housing": "Housing: Here you find shelter - for a short time or permanently.",
+                    "spaces": "Free Space: Here you find free spaces to meet, hang out or do whatever you want.",
+                    "objects_of_utility": "Objects of Utility: Here you can get or borrow different tools and other things, that others don't need any longer or only ocassionally use.",
+                    "clothes": "Clothes: Here you can find clothes.",
+                    "learning_opportunities": "Knowledge & Skills: Here you can find things and spaces where knowledge, skills and insights are shared. A space where people learn and research and where you can engage heart, hand and mind.",
+                    "energy": "Energy: Electricity, heating, transportation - all these require energy. On this places energy is provided.",
+                    "community": "Community: A diverse group of people that offers support and empowerment by coming together.",
+                    "participation": "Participation: Here is an opportunity to initiate activities, participate or deliberate on public issues.",
+                    "spirituality": "Spirituality: Here you find spaces, places and groups that pursue a contemplative/spiritual connection.",
+                    "telecommunication": "Telecommunication: This facility provides the infrastructure for telecommunication.",
+                    "air": "Air: Provides the air we all need to breathe."
+                }
+            },
+            "provides_combotype": {
+                "label": "Fulfils Needs"
+            },
+            "provides_land": {
+                "label": "Type of Land",
+                "placeholder": "rural, urban, rurban",
+                "options": {
+                    "rural": "Rural land",
+                    "urban": "Urban land",
+                    "rurban": "Rural/Urban (rurban) land"
+                }
+            },
             "railway": {
                 "label": "Type"
             },
@@ -1133,6 +1363,16 @@
             },
             "ref": {
                 "label": "Reference"
+            },
+            "regional": {
+                "label": "Regional",
+                "placeholder": "Yes, No, Regional Only...",
+                "options": {
+                    "yes": "Yes: Good choice of regional products in the whole selection, but not solely",
+                    "no": "No",
+                    "only": "Regional Only",
+                    "limited": "Limited: only selected products are regional"
+                }
             },
             "relation": {
                 "label": "Type"
@@ -1166,6 +1406,15 @@
             },
             "seasonal": {
                 "label": "Seasonal"
+            },
+            "second_hand": {
+                "label": "Second Hand",
+                "placeholder": "Yes, No, Second Hand Only...",
+                "options": {
+                    "only": "Only: only 2nd hand",
+                    "yes": "Yes: new and 2nd hand",
+                    "no": "No"
+                }
             },
             "service": {
                 "label": "Type"
@@ -1240,6 +1489,10 @@
             "source": {
                 "label": "Source"
             },
+            "species": {
+                "label": "Species: scientific name",
+                "placeholder": "main key latin"
+            },
             "sport": {
                 "label": "Sport"
             },
@@ -1248,6 +1501,9 @@
             },
             "sport_racing": {
                 "label": "Sport"
+            },
+            "start_date": {
+                "label": "Start Date"
             },
             "structure": {
                 "label": "Structure",
@@ -1291,6 +1547,31 @@
                     "pitlatrine": "Pit/Latrine",
                     "chemical": "Chemical",
                     "bucket": "Bucket"
+                }
+            },
+            "topic": {
+                "label": "Topic of an Organisation",
+                "placeholder": "food+drink , water, land, ...",
+                "options": {
+                    "food+drink": "Food & Drink: Organisations that care about food/drink.",
+                    "water": "Water: Here you can find organisations who care about water.",
+                    "land": "Land: Here you can find organisations who care about land - the land we all need to find shelter and/or to work on.",
+                    "mobility": "Mobility: Here you find organisations who care about mobility.",
+                    "health": "Health: Here you find organisations that care about keeping and making us healthy.",
+                    "culture": "Culture: Organisations who care about culture.",
+                    "safety": "Safety: Organisations who care about security.",
+                    "housing": "Housing: Organisations who care about housing.",
+                    "spaces": "Free Space: Organisations which are concerned about open spaces.",
+                    "objects_of_utility": "Objects of Utility: Organisations devoted to objects of utility.",
+                    "clothes": "Clothes: Clothes-related organisations (traders,company HQs,charity organisations with focus on clothes).",
+                    "learning_opportunities": "Knowledge & Skills: Organisations devoted to science and education.",
+                    "energy": "Energy: Energy-focused organisations",
+                    "community": "Community: Community:-building and empowering organisations.",
+                    "participation": "Participation: Organisations who organise participation in various field.",
+                    "spirituality": "Spirituality: Spritiual organisations",
+                    "telecommunication": "Telecommunication: Organisations devoted to telecommunication",
+                    "air": "Air: Organisation caring about the air we all need to breathe.",
+                    "environment": "Environment: Environmentalism-related organisations"
                 }
             },
             "tourism": {
@@ -1475,6 +1756,10 @@
                 "name": "Bicycle Repair Station",
                 "terms": "bike"
             },
+            "amenity/biergarten": {
+                "name": "Biergarten",
+                "terms": "restaurant"
+            },
             "amenity/boat_rental": {
                 "name": "Boat Rental",
                 "terms": ""
@@ -1559,6 +1844,10 @@
                 "name": "Embassy",
                 "terms": ""
             },
+            "amenity/fablab": {
+                "name": "Fab Lab",
+                "terms": ""
+            },
             "amenity/fast_food": {
                 "name": "Fast Food",
                 "terms": "restaurant"
@@ -1574,6 +1863,10 @@
             "amenity/fuel": {
                 "name": "Gas Station",
                 "terms": "petrol,fuel,propane,diesel,lng,cng,biodiesel"
+            },
+            "amenity/givebox": {
+                "name": "Givebox",
+                "terms": ""
             },
             "amenity/grave_yard": {
                 "name": "Graveyard",
@@ -1646,6 +1939,10 @@
             "amenity/post_office": {
                 "name": "Post Office",
                 "terms": "letter,mail"
+            },
+            "amenity/prison": {
+                "name": "Prison",
+                "terms": "cop,detective,fed,law,enforcement,officer,jail"
             },
             "amenity/pub": {
                 "name": "Pub",
@@ -1734,6 +2031,10 @@
             "amenity/veterinary": {
                 "name": "Veterinary",
                 "terms": "pet clinic,veterinarian,animal hospital,pet doctor"
+            },
+            "amenity/volkskuche": {
+                "name": "Volkskuche",
+                "terms": "Volksküche"
             },
             "amenity/waste_basket": {
                 "name": "Waste Basket",
@@ -1955,6 +2256,14 @@
                 "name": "Warehouse",
                 "terms": ""
             },
+            "club": {
+                "name": "Club",
+                "terms": ""
+            },
+            "club/foodcoop": {
+                "name": "Food Coop",
+                "terms": ""
+            },
             "craft": {
                 "name": "Craft",
                 "terms": ""
@@ -2162,6 +2471,10 @@
             "entrance": {
                 "name": "Entrance/Exit",
                 "terms": ""
+            },
+            "farm_boxes": {
+                "name": "CSA",
+                "terms": "Community,supported,agriculture,farm"
             },
             "footway/crossing": {
                 "name": "Crossing",
@@ -2407,6 +2720,22 @@
                 "name": "Wayside Shrine",
                 "terms": ""
             },
+            "identity/commons": {
+                "name": "Identity: Commons",
+                "terms": ""
+            },
+            "identity/global_ecovillage_network": {
+                "name": "identity: Global Ecovillage Network",
+                "terms": ""
+            },
+            "interaction/bartering": {
+                "name": "Interaction: Bartering",
+                "terms": ""
+            },
+            "interaction/lending": {
+                "name": "Interaction: Lending",
+                "terms": ""
+            },
             "junction": {
                 "name": "Junction",
                 "terms": ""
@@ -2421,6 +2750,10 @@
             },
             "landuse/basin": {
                 "name": "Basin",
+                "terms": ""
+            },
+            "landuse/brownfield": {
+                "name": "Brownfield",
                 "terms": ""
             },
             "landuse/cemetery": {
@@ -2461,6 +2794,10 @@
             },
             "landuse/grass": {
                 "name": "Grass",
+                "terms": ""
+            },
+            "landuse/greenfield": {
+                "name": "Greenfield",
                 "terms": ""
             },
             "landuse/industrial": {
@@ -2507,6 +2844,10 @@
                 "name": "Common",
                 "terms": "open space"
             },
+            "leisure/communitygarden": {
+                "name": "Community Garden",
+                "terms": ""
+            },
             "leisure/dog_park": {
                 "name": "Dog Park",
                 "terms": ""
@@ -2522,6 +2863,10 @@
             "leisure/golf_course": {
                 "name": "Golf Course",
                 "terms": "links"
+            },
+            "leisure/hackerspace": {
+                "name": "Hackerspace",
+                "terms": "hacklab"
             },
             "leisure/ice_rink": {
                 "name": "Ice Rink",
@@ -2943,6 +3288,70 @@
                 "name": "Transformer",
                 "terms": ""
             },
+            "provides/clothes": {
+                "name": "Other POI providing clothes",
+                "terms": ""
+            },
+            "provides/community": {
+                "name": "Other POI providing community",
+                "terms": ""
+            },
+            "provides/culture": {
+                "name": "Other POI providing culture",
+                "terms": ""
+            },
+            "provides/energy": {
+                "name": "Other POI providing energy",
+                "terms": ""
+            },
+            "provides/food+drink": {
+                "name": "Other POI providing Food & Drink",
+                "terms": ""
+            },
+            "provides/health": {
+                "name": "Other POI providing health",
+                "terms": ""
+            },
+            "provides/housing": {
+                "name": "Other POI providing housing",
+                "terms": ""
+            },
+            "provides/land": {
+                "name": "Other POI providing Land",
+                "terms": ""
+            },
+            "provides/learning_opportunities": {
+                "name": "Other POI providing knowledge & skills",
+                "terms": ""
+            },
+            "provides/mobility": {
+                "name": "Other POI providing Mobility",
+                "terms": ""
+            },
+            "provides/objects_of_utility": {
+                "name": "Other POI providing objects of utility",
+                "terms": ""
+            },
+            "provides/participation": {
+                "name": "Other POI providing participation",
+                "terms": ""
+            },
+            "provides/safety": {
+                "name": "Other POI providing safety",
+                "terms": ""
+            },
+            "provides/spaces": {
+                "name": "Other POI providing free space",
+                "terms": ""
+            },
+            "provides/spirituality": {
+                "name": "Other POI providing spirituality",
+                "terms": ""
+            },
+            "provides/water": {
+                "name": "Other POI providing Water",
+                "terms": ""
+            },
             "public_transport/platform": {
                 "name": "Platform",
                 "terms": ""
@@ -3251,6 +3660,10 @@
                 "name": "Houseware Store",
                 "terms": "home,household"
             },
+            "shop/ice_cream": {
+                "name": "Ice Cream Parlour",
+                "terms": ""
+            },
             "shop/interior_decoration": {
                 "name": "Interior Decoration Store",
                 "terms": ""
@@ -3455,6 +3868,10 @@
                 "name": "Wine Shop",
                 "terms": ""
             },
+            "tm_chain_provides": {
+                "name": "Fulfils Needs:",
+                "terms": ""
+            },
             "tourism": {
                 "name": "Tourism",
                 "terms": ""
@@ -3538,6 +3955,18 @@
             "traffic_calming/table": {
                 "name": "Raised Pedestrian Crossing",
                 "terms": "speed table,flat top hump"
+            },
+            "transformap-direct": {
+                "name": "POI fulfilling direct needs",
+                "terms": ""
+            },
+            "transformap-indirect": {
+                "name": "Organisation caring about needs",
+                "terms": ""
+            },
+            "transfortest": {
+                "name": "TransforMap Object",
+                "terms": ""
             },
             "type/boundary": {
                 "name": "Boundary",

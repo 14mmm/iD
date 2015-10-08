@@ -1,0 +1,21 @@
+{
+    "fields": [
+        "name",
+        "description",
+        "provides",
+        "topic",
+        "identity",
+        "interaction",
+        "contact",
+        "address"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "provides": "objects_of_utility"
+    },
+    "name": "Other POI providing objects of utility"
+}

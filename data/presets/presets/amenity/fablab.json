@@ -1,0 +1,20 @@
+{
+    "icon": "chemist",
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
+        "operator",
+        "address",
+        "building_area"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "amenity": "fablab"
+    },
+    "name": "Fab Lab"
+}

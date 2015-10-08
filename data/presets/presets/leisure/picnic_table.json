@@ -1,4 +1,9 @@
 {
+    "fields": [
+        "provides",
+        "identity",
+        "interaction"
+    ],
     "geometry": [
         "point"
     ],

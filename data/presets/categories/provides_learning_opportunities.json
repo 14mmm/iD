@@ -1,0 +1,14 @@
+{
+    "geometry": "point",
+    "name": "Knowledge & Skills",
+    "icon": "library",
+    "members": [
+        "amenity/public_bookcase",
+        "amenity/library",
+        "amenity/university",
+        "amenity/college",
+        "amenity/school",
+        "leisure/hackerspace",
+        "provides/learning_opportunities"
+    ]
+}

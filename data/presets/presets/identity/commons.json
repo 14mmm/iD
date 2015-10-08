@@ -1,0 +1,16 @@
+{
+    "fields": [
+      "name",
+      "provides_combotype",
+      "identity_combotype",
+      "interaction_combotype"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+    },
+    "name": "Identity: Commons"
+}

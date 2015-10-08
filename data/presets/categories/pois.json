@@ -1,0 +1,24 @@
+{
+    "geometry": "point",
+    "name": "POIs (amenities)",
+    "icon": "circle-stroked",
+    "members": [
+        "amenity/library",
+        "amenity/public_bookcase",
+        "amenity/social_facility",
+        "amenity/theatre",
+        "amenity/car_sharing",
+        "amenity/studio",
+        "amenity/bicycle_rental",
+        "amenity/community_centre",
+        "amenity/school",
+        "amenity/university",
+        "amenity/kindergarten",
+        "amenity/college",
+        "amenity/drinking_water",
+        "leisure/garden",
+        "leisure/hackerspace",
+        "natural/tree",
+        "club"
+    ]
+}

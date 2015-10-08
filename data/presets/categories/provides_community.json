@@ -1,0 +1,11 @@
+{
+    "geometry": "point",
+    "name": "Community",
+    "icon": "school",
+    "members": [
+        "leisure/communitygarden",
+        "amenity/community_centre",
+        "amenity/volkskuche",
+        "provides/community"
+    ]
+}

@@ -130,6 +130,10 @@
         },
         {
             "key": "amenity",
+            "value": "biergarten"
+        },
+        {
+            "key": "amenity",
             "value": "boat_rental"
         },
         {
@@ -214,6 +218,10 @@
         },
         {
             "key": "amenity",
+            "value": "fablab"
+        },
+        {
+            "key": "amenity",
             "value": "fast_food"
         },
         {
@@ -227,6 +235,10 @@
         {
             "key": "amenity",
             "value": "fuel"
+        },
+        {
+            "key": "amenity",
+            "value": "givebox"
         },
         {
             "key": "amenity",
@@ -299,6 +311,10 @@
         {
             "key": "amenity",
             "value": "post_office"
+        },
+        {
+            "key": "amenity",
+            "value": "prison"
         },
         {
             "key": "amenity",
@@ -387,6 +403,10 @@
         {
             "key": "amenity",
             "value": "veterinary"
+        },
+        {
+            "key": "social_facility",
+            "value": "food_bank"
         },
         {
             "key": "amenity",
@@ -607,6 +627,13 @@
             "value": "warehouse"
         },
         {
+            "key": "club"
+        },
+        {
+            "key": "interaction",
+            "value": "buying_and_selling"
+        },
+        {
             "key": "craft"
         },
         {
@@ -811,6 +838,10 @@
         },
         {
             "key": "entrance"
+        },
+        {
+            "key": "regional",
+            "value": "only"
         },
         {
             "key": "footway",
@@ -1071,6 +1102,10 @@
         },
         {
             "key": "landuse",
+            "value": "brownfield"
+        },
+        {
+            "key": "landuse",
             "value": "cemetery"
         },
         {
@@ -1108,6 +1143,10 @@
         {
             "key": "landuse",
             "value": "grass"
+        },
+        {
+            "key": "landuse",
+            "value": "greenfield"
         },
         {
             "key": "landuse",
@@ -1153,6 +1192,10 @@
             "value": "common"
         },
         {
+            "key": "garden:type",
+            "value": "community"
+        },
+        {
             "key": "leisure",
             "value": "dog_park"
         },
@@ -1167,6 +1210,10 @@
         {
             "key": "leisure",
             "value": "golf_course"
+        },
+        {
+            "key": "leisure",
+            "value": "hackerspace"
         },
         {
             "key": "leisure",
@@ -1575,6 +1622,70 @@
             "value": "transformer"
         },
         {
+            "key": "provides",
+            "value": "clothes"
+        },
+        {
+            "key": "provides",
+            "value": "community"
+        },
+        {
+            "key": "provides",
+            "value": "culture"
+        },
+        {
+            "key": "provides",
+            "value": "energy"
+        },
+        {
+            "key": "provides",
+            "value": "food+drink"
+        },
+        {
+            "key": "provides",
+            "value": "health"
+        },
+        {
+            "key": "provides",
+            "value": "housing"
+        },
+        {
+            "key": "provides",
+            "value": "land"
+        },
+        {
+            "key": "provides",
+            "value": "learning_opportunities"
+        },
+        {
+            "key": "provides",
+            "value": "mobility"
+        },
+        {
+            "key": "provides",
+            "value": "objects_of_utility"
+        },
+        {
+            "key": "provides",
+            "value": "participation"
+        },
+        {
+            "key": "provides",
+            "value": "safety"
+        },
+        {
+            "key": "provides",
+            "value": "spaces"
+        },
+        {
+            "key": "provides",
+            "value": "spirituality"
+        },
+        {
+            "key": "provides",
+            "value": "water"
+        },
+        {
             "key": "public_transport",
             "value": "platform"
         },
@@ -1878,6 +1989,10 @@
         },
         {
             "key": "shop",
+            "value": "ice_cream"
+        },
+        {
+            "key": "shop",
             "value": "interior_decoration"
         },
         {
@@ -2162,6 +2277,12 @@
         {
             "key": "traffic_calming",
             "value": "table"
+        },
+        {
+            "key": "provides"
+        },
+        {
+            "key": "topic"
         },
         {
             "key": "type",

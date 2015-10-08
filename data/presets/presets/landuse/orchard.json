@@ -1,6 +1,9 @@
 {
     "icon": "park2",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "trees"
     ],
     "geometry": [

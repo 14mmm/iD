@@ -1,0 +1,15 @@
+{
+    "key": "organic",
+    "type": "combo",
+    "label": "Organic",
+    "placeholder": "Yes, No, Organic Only...",
+    "universal": true,
+    "strings": {
+        "options": {
+            "yes": "Yes: Good choice of organic products in the whole selection, but not solely",
+            "no": "No",
+            "only": "Organic Only",
+            "limited": "Limited: only selected products are organic"
+        }
+    }
+}

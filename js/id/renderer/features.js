@@ -417,5 +417,11 @@ iD.Features = function(context) {
         return result;
     };
 
+    //disable unneeded features for TransforMap on default
+    var disable_features = [ 'major_roads', 'minor_roads', 'paths', 'boundaries', 'water', 'rail', 'power'];
+    for (var i = 0; i < disable_features.length; i++) {
+      _features[disable_features[i]].disable();
+    }
+
     return d3.rebind(features, dispatch, 'on');
 };

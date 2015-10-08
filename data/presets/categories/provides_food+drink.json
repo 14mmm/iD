@@ -1,0 +1,31 @@
+{
+    "geometry": "point",
+    "name": "Food + Drink",
+    "icon": "restaurant",
+    "members": [
+        "leisure/communitygarden",
+        "farm_boxes",
+        "club/foodcoop",
+        "amenity/volkskuche",
+        "amenity/social_facility/food_bank",
+        "amenity/marketplace",
+        "natural/tree",
+        "amenity/restaurant",
+        "amenity/bar",
+        "amenity/pub",
+        "amenity/cafe",
+        "amenity/biergarten",
+        "amenity/fast_food",
+        "shop/bakery",
+        "shop/butcher",
+        "shop/convenience",
+        "shop/supermarket",
+        "shop/greengrocer",
+        "shop/farm",
+        "shop/beverages",
+        "shop/wine",
+        "shop/alcohol",
+        "shop",
+        "provides/food+drink"
+    ]
+}

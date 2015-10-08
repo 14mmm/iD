@@ -49,6 +49,19 @@
             }
         }
     },
+    "access_clubs": {
+        "key": "access",
+        "type": "combo",
+        "label": "Access",
+        "placeholder": "yes",
+        "options": [
+            "public",
+            "permissive",
+            "private",
+            "members",
+            "no"
+        ]
+    },
     "access_simple": {
         "key": "access",
         "type": "combo",
@@ -276,6 +289,50 @@
             }
         }
     },
+    "club": {
+        "key": "club",
+        "type": "combo",
+        "label": "Club",
+        "placeholder": "Yes, Sports, Artist, Chess, ...",
+        "universal": true,
+        "strings": {
+            "options": {
+                "yes": "Yes: If not known further",
+                "sport": "+ sport=*",
+                "art": "Artist club",
+                "astronomy": "An amateur astronomy club",
+                "automobile": "Automobile club",
+                "bicycle": "Promote and enjoy bicycle usage (for competitions see sport + sport=cycling)",
+                "charity": "A club devoted to charitable activities: blood/tissues donation, humanitarian,..",
+                "chess": "Chess club",
+                "cinema": "Cinema club",
+                "cooking": "Cooking club",
+                "culture": "A cultural club that doesn't fit in other categories. Consider to use a specific new value instead of this.",
+                "doityourself": "Do it yourself club (electronics, clothes,..)",
+                "elderly": "A club restricted to aged people",
+                "ethnic": "A club to promote ethnic or inter-ethnic culture.",
+                "fan": "A fanclub",
+                "fishing": "(for competitions see sport + sport=fishing)",
+                "freemasonry": "A Masonic Lodge/temple/hall used by Freemasons.",
+                "game": "A club devoted to games.",
+                "board_games": "A club devoted to board games.",
+                "history": "A club devoted to (local) history and traditions",
+                "hunting": "(see also sport+sport=shooting)",
+                "linux": "A Linux User Group (LUG)",
+                "music": "A club where people sing or play music",
+                "nature": "A club devoted to nature study: mushrooms, rocks, flowers, birdwatching,and so on. Consider if create specific values for each of these.",
+                "nudism": "Nudist Club",
+                "photography": "Photographer club",
+                "politics": "politic club",
+                "religion": "+ religion=* + denomination=*",
+                "scout": "A scout group base",
+                "smoke": "smoker's club",
+                "theatre": "theatre club",
+                "veterans": "A club of war veterans (e.g.: in italy \"Gruppo alpini\" or \"Gruppo partigiani\").",
+                "youth": "A club restricted to young people"
+            }
+        }
+    },
     "collection_times": {
         "key": "collection_times",
         "type": "text",
@@ -285,6 +342,46 @@
         "key": "construction",
         "type": "combo",
         "label": "Type"
+    },
+    "contact": {
+        "keys": [
+            "contact:website",
+            "contact:fax",
+            "contact:phone",
+            "contact:email",
+            "contact:name"
+        ],
+        "reference": {
+            "key": "contact"
+        },
+        "type": "access",
+        "label": "Contact data",
+        "icon": "telephone",
+        "universal": true,
+        "placeholder": "Unknown",
+        "strings": {
+            "types": {
+                "contact:website": "Website",
+                "contact:phone": "Telephone Nr.",
+                "contact:fax": "Fax Nr.",
+                "contact:email": "Email Address",
+                "contact:name": "Contact Person Name"
+            },
+            "options": {
+                "+49 ...": {
+                    "title": "+49 1234 56789-0",
+                    "description": "phone/fax nrs. with int. prefix, no local (0)!"
+                },
+                "http://": {
+                    "title": "http://",
+                    "description": "Start Web addresses with http://"
+                },
+                "https://": {
+                    "title": "http://",
+                    "description": "Start Secure Web addresses with https://"
+                }
+            }
+        }
     },
     "country": {
         "key": "country",
@@ -313,7 +410,7 @@
     },
     "cuisine": {
         "key": "cuisine",
-        "type": "combo",
+        "type": "mcombo",
         "label": "Cuisine"
     },
     "delivery": {
@@ -359,7 +456,6 @@
         "key": "ele",
         "type": "number",
         "icon": "elevation",
-        "universal": true,
         "label": "Elevation"
     },
     "emergency": {
@@ -377,6 +473,34 @@
         "type": "combo",
         "label": "Exceptions"
     },
+    "fair_trade": {
+        "key": "fair_trade",
+        "type": "combo",
+        "label": "Fair-Trade",
+        "placeholder": "Yes, No, Fair-Trade Only...",
+        "universal": true,
+        "strings": {
+            "options": {
+                "yes": "Yes: Good choice of fair-trade products in the whole selection, but not solely",
+                "no": "No",
+                "only": "Fair-Trade Only",
+                "limited": "Limited: only selected products are fair-trade"
+            }
+        }
+    },
+    "farm_boxes": {
+        "key": "farm_boxes",
+        "type": "combo",
+        "strings": {
+            "options": {
+                "pickup": "Pickup point",
+                "source": "Source farm, no pickup",
+                "source_and_pickup": "Farm, also pickup possible"
+            }
+        },
+        "icon": "farm",
+        "label": "CSA"
+    },
     "fax": {
         "key": "fax",
         "type": "tel",
@@ -386,6 +510,7 @@
     "fee": {
         "key": "fee",
         "type": "check",
+        "universal": true,
         "label": "Fee"
     },
     "fire_hydrant/type": {
@@ -493,6 +618,12 @@
         "type": "combo",
         "label": "Type"
     },
+    "genus": {
+        "key": "genus",
+        "type": "localized",
+        "label": "Genus: low level taxonomy rank",
+        "placeholder": "main key latin"
+    },
     "golf_hole": {
         "key": "ref",
         "type": "text",
@@ -531,6 +662,35 @@
         "type": "text",
         "label": "ICAO"
     },
+    "identity": {
+        "key": "identity",
+        "type": "mcombo",
+        "label": "Self-Description of a Community",
+        "placeholder": "Commons, Transition Initiative, ...",
+        "strings": {
+            "options": {
+                "solidarity_economy": "Solidarity Economy: Organisations, projects and enterprises meeting the principles of Solidarity Economy based on the core ideas of shared ownership and people before profit.",
+                "transition_initiative": "Transition Initative: A transition initiative is a grassroot community project that seeks to build resilience in response to peak oil, climate destruction, and economic instability by creating a local group that uphold the values of the transition network.",
+                "permaculture": "Permaculture: Initiatives, and projects based on the design principles of permaculture.",
+                "demonetized_economy": "Demonetized Economy: Places where people live or attempt to live without money. Projects and initiatives that avoid commodity exchange and conventional money.",
+                "community_based_currencies": "Community Based Currencies: Initiatives that design and manage community based and -supported, local and social currencies, which are not controlled by a national government, and are intended to be traded only in a particular area. ",
+                "commons": "Commons: \"Commons\"-based communities collectively and democratically produce, steward, develop or manage shared places, projects, resources, assets or knowledge. See also Eight Design Principles for Managing a Commons set forth by Nobel Prize Laureate Elinor Ostrom.",
+                "economy_for_the_common_good": "Economy for the Common Good: Local chapters of the economy for the common good and corporate bodies that have created a certified balance of the economy for the common good.",
+                "collaborative_economy": "Collaborative Economy: The collaborative economy consists of initiatives based on horizontal networks and participation of a community.",
+                "global_ecovillage_network": "Global Ecovillage Network: Initiatives that are part of the Global Ecovillage Network.",
+                "degrowth": "Degrowth: Organisations and projects that identify themselves as being part of degrowth and its synonyms in different languages as for instance décroissance.",
+                "subsistence_economy": "Subsistence Economy: Acitivities for ones own livelyhood and well-being not producing commodities to be sold at the market.",
+                "p2p_economy": "P2P Economy: The peer-to-peer economy consists of people who pool work, ideas and resources to produce something in self-administrated and decentralized associations, instead of conventional seller/buyer market relationships. ",
+                "ecovillage": "Ecovillage, individual."
+            }
+        },
+        "universal": true
+    },
+    "identity_combotype": {
+        "key": "identity",
+        "type": "typeCombo",
+        "label": "Self-description of a Community"
+    },
     "incline": {
         "key": "incline",
         "type": "combo",
@@ -552,10 +712,36 @@
         "type": "typeCombo",
         "label": "Type"
     },
+    "interaction": {
+        "key": "interaction",
+        "type": "mcombo",
+        "label": "Mode of Interaction",
+        "placeholder": "bartering, cousing, ...",
+        "strings": {
+            "options": {
+                "bartering": "Bartering: Here you can exchange something: give & take.",
+                "sharing": "Sharing: Here you can share material (tools, books, etc.) and immaterial (time, knowledge, ideas) matters.",
+                "lending": "Lending: Here you can borrow something (contributions towards costs).",
+                "renting": "Renting: Here you can rent something.",
+                "gifting": "Gifting: Here you can give and receive.",
+                "rebuying_reselling": "Rebuy & Resell: Here you can get and leave things that are not needed anymore. Second-hand.",
+                "cousing": "Co-Use: Here you can use (some)things with others.",
+                "diy_and_dit": "Do It Yourself & Together: Here you can produce or repair, upcycle or downcycle something by yourself or together with others.",
+                "buying_and_selling": "Buy & Sell: Here you can buy and sell things."
+            }
+        },
+        "universal": true
+    },
+    "interaction_combotype": {
+        "key": "interaction",
+        "type": "typeCombo",
+        "label": "Mode of Interaction"
+    },
     "internet_access": {
         "key": "internet_access",
         "type": "combo",
         "label": "Internet Access",
+        "universal": true,
         "strings": {
             "options": {
                 "yes": "Yes",
@@ -718,7 +904,6 @@
     "note": {
         "key": "note",
         "type": "textarea",
-        "universal": true,
         "icon": "note",
         "label": "Note"
     },
@@ -761,6 +946,21 @@
         "type": "text",
         "label": "Operator"
     },
+    "organic": {
+        "key": "organic",
+        "type": "combo",
+        "label": "Organic",
+        "placeholder": "Yes, No, Organic Only...",
+        "universal": true,
+        "strings": {
+            "options": {
+                "yes": "Yes: Good choice of organic products in the whole selection, but not solely",
+                "no": "No",
+                "only": "Organic Only",
+                "limited": "Limited: only selected products are organic"
+            }
+        }
+    },
     "par": {
         "key": "par",
         "type": "number",
@@ -792,7 +992,6 @@
         "key": "phone",
         "type": "tel",
         "icon": "telephone",
-        "universal": true,
         "label": "Phone",
         "placeholder": "+31 42 123 4567"
     },
@@ -861,6 +1060,53 @@
         "type": "typeCombo",
         "label": "Type"
     },
+    "provides": {
+        "key": "provides",
+        "type": "mcombo",
+        "label": "Needs fulfilled by a community",
+        "placeholder": "food+drink , water, land, ...",
+        "strings": {
+            "options": {
+                "food+drink": "Food & Drink: Here you can find drinks and something to eat, recently harvested or ready to enjoy.",
+                "water": "Water: Here you can find drinking water.",
+                "land": "Land: Here you find land - the land we all need to find shelter and/or to work on.",
+                "mobility": "Mobility: Here you find possibilities to go from A to B.",
+                "health": "Health: Here you find what keeps and makes us healthy.",
+                "culture": "Culture: Here you find cultural events or free space to (self-)organise an event or to perform.",
+                "safety": "Safety: Here you find places and people that provide a sense of security, support and safety for a short period of time.",
+                "housing": "Housing: Here you find shelter - for a short time or permanently.",
+                "spaces": "Free Space: Here you find free spaces to meet, hang out or do whatever you want.",
+                "objects_of_utility": "Objects of Utility: Here you can get or borrow different tools and other things, that others don't need any longer or only ocassionally use.",
+                "clothes": "Clothes: Here you can find clothes.",
+                "learning_opportunities": "Knowledge & Skills: Here you can find things and spaces where knowledge, skills and insights are shared. A space where people learn and research and where you can engage heart, hand and mind.",
+                "energy": "Energy: Electricity, heating, transportation - all these require energy. On this places energy is provided.",
+                "community": "Community: A diverse group of people that offers support and empowerment by coming together.",
+                "participation": "Participation: Here is an opportunity to initiate activities, participate or deliberate on public issues.",
+                "spirituality": "Spirituality: Here you find spaces, places and groups that pursue a contemplative/spiritual connection.",
+                "telecommunication": "Telecommunication: This facility provides the infrastructure for telecommunication.",
+                "air": "Air: Provides the air we all need to breathe."
+            }
+        },
+        "universal": true
+    },
+    "provides_combotype": {
+        "key": "provides",
+        "type": "typeCombo",
+        "label": "Fulfils Needs"
+    },
+    "provides_land": {
+        "key": "provides:land",
+        "type": "mcombo",
+        "label": "Type of Land",
+        "placeholder": "rural, urban, rurban",
+        "strings": {
+            "options": {
+                "rural": "Rural land",
+                "urban": "Urban land",
+                "rurban": "Rural/Urban (rurban) land"
+            }
+        }
+    },
     "railway": {
         "key": "railway",
         "type": "typeCombo",
@@ -890,6 +1136,21 @@
         "key": "ref",
         "type": "text",
         "label": "Reference"
+    },
+    "regional": {
+        "key": "regional",
+        "type": "combo",
+        "label": "Regional",
+        "placeholder": "Yes, No, Regional Only...",
+        "universal": true,
+        "strings": {
+            "options": {
+                "yes": "Yes: Good choice of regional products in the whole selection, but not solely",
+                "no": "No",
+                "only": "Regional Only",
+                "limited": "Limited: only selected products are regional"
+            }
+        }
     },
     "relation": {
         "key": "type",
@@ -945,6 +1206,20 @@
         "key": "seasonal",
         "type": "check",
         "label": "Seasonal"
+    },
+    "second_hand": {
+        "key": "second_hand",
+        "type": "combo",
+        "label": "Second Hand",
+        "placeholder": "Yes, No, Second Hand Only...",
+        "universal": true,
+        "strings": {
+            "options": {
+                "only": "Only: only 2nd hand",
+                "yes": "Yes: new and 2nd hand",
+                "no": "No"
+            }
+        }
     },
     "service": {
         "key": "service",
@@ -1020,6 +1295,7 @@
         "type": "combo",
         "label": "Smoking",
         "placeholder": "No, Separated, Yes...",
+        "universal": true,
         "strings": {
             "options": {
                 "no": "No smoking anywhere",
@@ -1051,7 +1327,7 @@
     },
     "social_facility_for": {
         "key": "social_facility:for",
-        "type": "radio",
+        "type": "mcombo",
         "label": "People served",
         "placeholder": "Homeless, Disabled, Child, etc",
         "options": [
@@ -1078,9 +1354,15 @@
         "universal": true,
         "label": "Source"
     },
+    "species": {
+        "key": "species",
+        "type": "localized",
+        "label": "Species: scientific name",
+        "placeholder": "main key latin"
+    },
     "sport": {
         "key": "sport",
-        "type": "combo",
+        "type": "mcombo",
         "label": "Sport"
     },
     "sport_ice": {
@@ -1109,6 +1391,12 @@
             "running"
         ]
     },
+    "start_date": {
+        "key": "start_date",
+        "type": "text",
+        "universal": true,
+        "label": "Start Date"
+    },
     "structure": {
         "type": "radio",
         "keys": [
@@ -1132,7 +1420,7 @@
     },
     "studio_type": {
         "key": "type",
-        "type": "combo",
+        "type": "mcombo",
         "label": "Type",
         "options": [
             "audio",
@@ -1184,6 +1472,36 @@
                 "bucket": "Bucket"
             }
         }
+    },
+    "topic": {
+        "key": "topic",
+        "type": "mcombo",
+        "label": "Topic of an Organisation",
+        "placeholder": "food+drink , water, land, ...",
+        "strings": {
+            "options": {
+                "food+drink": "Food & Drink: Organisations that care about food/drink.",
+                "water": "Water: Here you can find organisations who care about water.",
+                "land": "Land: Here you can find organisations who care about land - the land we all need to find shelter and/or to work on.",
+                "mobility": "Mobility: Here you find organisations who care about mobility.",
+                "health": "Health: Here you find organisations that care about keeping and making us healthy.",
+                "culture": "Culture: Organisations who care about culture.",
+                "safety": "Safety: Organisations who care about security.",
+                "housing": "Housing: Organisations who care about housing.",
+                "spaces": "Free Space: Organisations which are concerned about open spaces.",
+                "objects_of_utility": "Objects of Utility: Organisations devoted to objects of utility.",
+                "clothes": "Clothes: Clothes-related organisations (traders,company HQs,charity organisations with focus on clothes).",
+                "learning_opportunities": "Knowledge & Skills: Organisations devoted to science and education.",
+                "energy": "Energy: Energy-focused organisations",
+                "community": "Community: Community:-building and empowering organisations.",
+                "participation": "Participation: Organisations who organise participation in various field.",
+                "spirituality": "Spirituality: Spritiual organisations",
+                "telecommunication": "Telecommunication: Organisations devoted to telecommunication",
+                "air": "Air: Organisation caring about the air we all need to breathe.",
+                "environment": "Environment: Environmentalism-related organisations"
+            }
+        },
+        "universal": true
     },
     "tourism": {
         "key": "tourism",
@@ -1238,7 +1556,7 @@
     },
     "vending": {
         "key": "vending",
-        "type": "combo",
+        "type": "mcombo",
         "label": "Type of Goods"
     },
     "water": {
@@ -1256,7 +1574,6 @@
         "type": "url",
         "icon": "website",
         "placeholder": "http://example.com/",
-        "universal": true,
         "label": "Website"
     },
     "wetland": {

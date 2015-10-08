@@ -1,6 +1,9 @@
 {
     "icon": "lodging",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "operator",
         "address",
         "building_area"

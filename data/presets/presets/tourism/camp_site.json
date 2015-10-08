@@ -1,6 +1,9 @@
 {
     "icon": "campsite",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "operator",
         "address"
     ],

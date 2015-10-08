@@ -1,13 +1,18 @@
 {
     "icon": "beer",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "address",
+        "cuisine",
         "building_area",
         "opening_hours",
         "smoking"
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
     "tags": {

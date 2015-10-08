@@ -1,0 +1,15 @@
+{
+    "key": "regional",
+    "type": "combo",
+    "label": "Regional",
+    "placeholder": "Yes, No, Regional Only...",
+    "universal": true,
+    "strings": {
+        "options": {
+            "yes": "Yes: Good choice of regional products in the whole selection, but not solely",
+            "no": "No",
+            "only": "Regional Only",
+            "limited": "Limited: only selected products are regional"
+        }
+    }
+}

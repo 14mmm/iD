@@ -1,0 +1,10 @@
+{
+    "geometry": "point",
+    "name": "Energy",
+    "icon": "fire-station",
+    "members": [
+        "power/generator",
+        "amenity/charging_station",
+        "provides/energy"
+    ]
+}

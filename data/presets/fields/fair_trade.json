@@ -1,0 +1,15 @@
+{
+    "key": "fair_trade",
+    "type": "combo",
+    "label": "Fair-Trade",
+    "placeholder": "Yes, No, Fair-Trade Only...",
+    "universal": true,
+    "strings": {
+        "options": {
+            "yes": "Yes: Good choice of fair-trade products in the whole selection, but not solely",
+            "no": "No",
+            "only": "Fair-Trade Only",
+            "limited": "Limited: only selected products are fair-trade"
+        }
+    }
+}

@@ -1,12 +1,17 @@
 {
     "icon": "embassy",
     "fields": [
+	"provides",
+        "topic",
+        "identity",
+        "interaction",
         "country",
         "address",
         "building_area"
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
     "tags": {

@@ -1,6 +1,9 @@
 {
     "icon": "pitch",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "surface",
         "lit"
     ],

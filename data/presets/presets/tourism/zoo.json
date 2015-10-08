@@ -1,6 +1,9 @@
 {
     "icon": "zoo",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "operator",
         "address",
         "opening_hours"

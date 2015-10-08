@@ -1,0 +1,17 @@
+{
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
+        "operator",
+        "address"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "amenity": "givebox"
+    },
+    "name": "Givebox"
+}

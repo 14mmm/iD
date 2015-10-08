@@ -1,0 +1,13 @@
+{
+    "geometry": "point",
+    "name": "Clothes",
+    "icon": "clothing-store",
+    "members": [
+        "shop/second_hand",
+        "shop/clothes",
+        "shop/boutique",
+        "shop/tailor",
+        "amenity/givebox",
+        "provides/clothes"
+    ]
+}

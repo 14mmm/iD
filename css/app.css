@@ -27,8 +27,11 @@ body {
 }
 
 .id-container {
-    height: 100%;
+    /* height: 100%; */
+    top:50px;
+    bottom:0;
     width: 100%;
+    position: absolute;
     position: fixed;
     min-width: 768px;
 }
@@ -606,7 +609,7 @@ a:hover .icon.out-link   { background-position: -500px -14px;}
     position: fixed;
     padding: 10px 0;
     left:0;
-    top:0;
+    top:50px;
     right:0;
     height:60px;
     z-index: 9;
@@ -1463,10 +1466,10 @@ input[type=number] {
 div.combobox {
     z-index: 9999;
     display: none;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.5);
     margin-top: -1px;
     background: white;
-    max-height: 120px;
+    max-height: 220px;
     overflow-y: auto;
     overflow-x: hidden;
     border: 1px solid #ccc;
@@ -1482,7 +1485,14 @@ div.combobox {
     overflow: hidden;
 }
 
-.combobox a.selected,
+.combobox a.mcombobox-option span {
+    padding-left: 10px;
+}
+
+.combobox a.selected {
+    font-weight: 600;
+}
+
 .combobox a:hover {
     background: #ececec;
 }
@@ -1724,7 +1734,7 @@ img.wiki-image {
 
 .map-controls {
     right: 0;
-    top: 70px;
+    top: 120px;
     width: 40px;
     position: fixed;
     z-index: 100;
@@ -2991,3 +3001,85 @@ img.wiki-image {
     background: rgba(0, 0, 0, 0) url(img/sprite.svg) no-repeat -400px -220px;
     margin: auto;
 }
+
+.mcombo {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+.mcombo.square:before {
+    content: "\2610";
+}
+.mcombo.check-square:before {
+  content: "\2611";
+  font-weight:normal;
+}
+
+.mmmnavbar {
+  font-size: 14px;
+  background: #455473;
+  box-shadow: #AAAAAA 0px 3px 5px 0px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index:1005;
+  color:#FFF;
+  font: normal normal 400 14px/20px "PT Sans";
+  font-family: "PT Sans", sans-serif;
+  vertical-align:middle;
+  text-align:center;
+}
+
+.mmmnavbar li a {
+  color: #DDDDDD;
+  height:100%;
+  display:block;
+  line-height:50px;
+  padding-left:10px;
+  padding-right:10px;
+}
+.mmmnavbar li:first-child a {
+padding:0px;
+}
+
+
+.mmmnavbar a:hover {
+  text-decoration: none;
+  color:#FFF;
+}
+
+.mmmnavbar ul {
+    max-width:939px;
+    margin:0 0 0 -470px;
+    padding:0;
+    position:absolute;
+    top:0px;
+    left:50%;
+    height:50px;
+}
+
+.mmmnavbar ul li {
+  display: inline;
+  float:left;
+  height:50px;
+  /*padding:10px;*/
+}
+.mmmnavbar ul li:first-child {
+    float:normal;
+}
+
+.mmmnavbar ul li img {
+    vertical-align:middle;
+    margin:10px;
+}
+
+.mmmnavbar ul li:hover {
+  background: #444;
+}
+
+

@@ -1,6 +1,9 @@
 {
     "icon": "america-football",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "surface",
         "lit"
     ],

@@ -1,6 +1,10 @@
 {
     "icon": "place-of-worship",
     "fields": [
+        "provides",
+        "topic",
+        "identity",
+        "interaction",
         "religion",
         "denomination",
         "address",
@@ -8,6 +12,7 @@
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
     "terms": [

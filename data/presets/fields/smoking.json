@@ -3,6 +3,7 @@
     "type": "combo",
     "label": "Smoking",
     "placeholder": "No, Separated, Yes...",
+    "universal": true,
     "strings": {
         "options": {
             "no": "No smoking anywhere",

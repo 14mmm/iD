@@ -1,6 +1,6 @@
 {
     "key": "social_facility:for",
-    "type": "radio",
+    "type": "mcombo",
     "label": "People served",
     "placeholder": "Homeless, Disabled, Child, etc",
     "options": [

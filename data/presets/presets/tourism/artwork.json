@@ -1,6 +1,9 @@
 {
     "icon": "art-gallery",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "artwork_type",
         "artist"
     ],

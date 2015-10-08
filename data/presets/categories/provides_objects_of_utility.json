@@ -1,0 +1,12 @@
+{
+    "geometry": "point",
+    "name": "Objects of Utility",
+    "icon": "logging",
+    "members": [
+        "amenity/bicycle_repair_station",
+        "shop/doityourself",
+        "leisure/hackerspace",
+        "amenity/fablab",
+        "provides/objects_of_utility"
+    ]
+}

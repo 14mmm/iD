@@ -1,10 +1,14 @@
 {
     "icon": "car",
     "fields": [
+        "provides",
+        "identity",
+        "interaction",
         "operator"
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
     "tags": {

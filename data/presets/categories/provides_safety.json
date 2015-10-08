@@ -1,0 +1,10 @@
+{
+    "geometry": "point",
+    "name": "Safety",
+    "icon": "police",
+    "members": [
+        "amenity/police",
+        "amenity/prison",
+        "provides/safety"
+    ]
+}

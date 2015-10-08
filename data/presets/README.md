@@ -64,6 +64,7 @@ In which `type` is the fields's type. Valid field types are
 * textarea
 * radio
 * combo
+* mcombo - a combo box where more than one value can be selected, produces ";"-separated tags
 * address
 * check - a tri-state checkbox: yes, no, or unknown (no tag)
 * defaultcheck - a boolean checkbox where checked produces a `*=yes` tag and

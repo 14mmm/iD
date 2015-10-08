@@ -1,0 +1,20 @@
+{
+    "key": "interaction",
+    "type": "mcombo",
+    "label": "Mode of Interaction",
+    "placeholder": "bartering, cousing, ...",
+    "strings": {
+        "options": {
+            "bartering" : "Bartering: Here you can exchange something: give & take.",
+            "sharing" : "Sharing: Here you can share material (tools, books, etc.) and immaterial (time, knowledge, ideas) matters.",
+            "lending" : "Lending: Here you can borrow something (contributions towards costs).",
+            "renting" : "Renting: Here you can rent something.",
+            "gifting" : "Gifting: Here you can give and receive.",
+            "rebuying_reselling" : "Rebuy & Resell: Here you can get and leave things that are not needed anymore. Second-hand.",
+            "cousing" : "Co-Use: Here you can use (some)things with others.",
+            "diy_and_dit" : "Do It Yourself & Together: Here you can produce or repair, upcycle or downcycle something by yourself or together with others.",
+            "buying_and_selling" : "Buy & Sell: Here you can buy and sell things."
+        }
+    },
+    "universal": true
+} 

@@ -1,0 +1,21 @@
+{
+    "fields": [
+        "name",
+        "description",
+        "provides",
+        "topic",
+        "identity",
+        "interaction",
+        "contact",
+        "address"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "provides": "culture"
+    },
+    "name": "Other POI providing culture"
+}

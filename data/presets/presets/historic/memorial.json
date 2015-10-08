@@ -1,4 +1,10 @@
 {
+    "fields": [
+        "provides",
+        "topic",
+        "identity",
+        "interaction"
+    ],
     "icon": "monument",
     "geometry": [
         "point",

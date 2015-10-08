@@ -1,0 +1,23 @@
+{
+    "icon": "shop",
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
+        "operator",
+        "address",
+        "building_area",
+        "organic",
+        "regional",
+        "opening_hours"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "shop": "ice_cream"
+    },
+    "name": "Ice Cream Parlour"
+}

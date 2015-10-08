@@ -1,0 +1,14 @@
+{
+    "fields": [
+        "name",
+        "provides_combotype"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+    },
+    "name": "Fulfils Needs:"
+}

@@ -1,6 +1,9 @@
 {
     "icon": "wetland",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "wetland"
     ],
     "geometry": [

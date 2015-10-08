@@ -1,14 +1,22 @@
 {
     "fields": [
+        "provides",
+        "identity",
+        "interaction",
         "operator",
         "address",
         "building_area",
-        "opening_hours"
+        "opening_hours",
+        "regional",
+        "farm_boxes",
+        "organic"
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
+    "icon": "shop",
     "tags": {
         "amenity": "marketplace"
     },

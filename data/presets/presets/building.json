@@ -2,6 +2,11 @@
     "icon": "building",
     "fields": [
         "building",
+        "description",
+        "provides",
+        "topic",
+        "identity",
+        "interaction",
         "levels",
         "address"
     ],

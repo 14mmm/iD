@@ -1,6 +1,9 @@
 {
     "icon": "swimming",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "access_simple",
         "operator",
         "address"

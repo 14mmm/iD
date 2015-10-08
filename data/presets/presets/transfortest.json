@@ -1,0 +1,20 @@
+{
+    "fields": [
+        "description",
+        "provides",
+        "topic",
+        "identity",
+        "interaction",
+        "contact",
+        "address"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+    },
+    "matchScore": 0.5,
+    "name": "TransforMap Object"
+}

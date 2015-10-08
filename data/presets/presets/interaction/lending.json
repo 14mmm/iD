@@ -1,0 +1,18 @@
+{
+    "fields": [
+      "name",
+      "provides_combotype",
+      "identity_combotype",
+      "interaction_combotype",
+      "address",
+      "contact"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+    },
+    "name": "Interaction: Lending"
+}

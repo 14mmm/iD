@@ -1,6 +1,9 @@
 {
     "icon": "bicycle",
     "fields": [
+        "provides",
+        "identity",
+        "interaction",
         "capacity",
         "network",
         "operator"

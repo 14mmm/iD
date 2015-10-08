@@ -1,0 +1,19 @@
+{
+    "fields": [
+        "description",
+        "provides",
+        "identity",
+        "interaction",
+        "contact",
+        "address"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "provides": "*"
+    },
+    "name": "POI fulfilling direct needs"
+}

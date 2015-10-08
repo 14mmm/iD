@@ -1,0 +1,22 @@
+{
+    "icon": "garden",
+    "fields": [
+	    "provides",
+	    "identity",
+	    "interaction",
+	    "access_clubs",
+	    "operator",
+	    "address"
+	],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "leisure": "garden",
+        "garden:type": "community"
+    },
+    "name": "Community Garden"
+
+}

@@ -1,5 +1,9 @@
 {
     "fields": [
+        "provides",
+        "topic",
+        "identity",
+        "interaction",
         "operator",
         "address",
         "building_area",
@@ -9,6 +13,7 @@
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
     "terms": [

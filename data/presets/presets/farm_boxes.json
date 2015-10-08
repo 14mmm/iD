@@ -1,0 +1,30 @@
+{
+    "fields": [
+        "farm_boxes",
+        "description",
+        "provides",
+        "identity",
+        "interaction",
+        "organic",
+        "address",
+        "contact"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "farm_boxes": "*",
+        "provides" : "food+drink",
+        "regional" : "only"
+    },
+    "terms": [
+        "Community",
+        "supported",
+        "agriculture",
+        "farm"
+            ],
+    "icon" : "farm",
+    "name": "CSA"
+}

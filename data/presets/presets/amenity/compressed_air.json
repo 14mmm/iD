@@ -2,6 +2,7 @@
     "icon": "car",
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
     "tags": {

@@ -1,12 +1,16 @@
 {
     "icon": "hospital",
     "fields": [
+        "provides",
+        "identity",
+        "interaction",
         "operator",
         "address",
         "emergency"
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
     "terms": [

@@ -1,0 +1,22 @@
+{
+    "icon": "embassy",
+    "fields": [
+        "name",
+        "description",
+        "topic",
+        "identity",
+        "interaction",
+        "club",
+        "address",
+        "contact"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "topic": "*"
+    },
+    "name": "Organisation caring about needs"
+}

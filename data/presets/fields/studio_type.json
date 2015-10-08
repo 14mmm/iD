@@ -1,6 +1,6 @@
 {
     "key": "type",
-    "type": "combo",
+    "type": "mcombo",
     "label": "Type",
     "options": [
         "audio",

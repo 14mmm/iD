@@ -1,0 +1,72 @@
+
+Presets:
+  a guided "Tour"
+    Needs first
+    Second interaction
+    Identity third
+    fourth "Main Tag"
+    then all others
+
+    → implement via matchScore ?
+        begin tm_chain_provides.json
+
+in defaults.json are defaults for each datatype (point,line,area)
+  → change to our will :-)
+
+  groups ("categories") can be added
+    it's like drop-downs for single presets
+
+  possibilities:
+    one group for "provides", one for "topic"
+      the pre-fill this value on a bigger form with our tax
+        "minor" tags via "add field"
+
+    group: provides
+      and therein all single presets from the presets ethercalc!
+          e.g.: provides=food -> restaurant,shop,fairteiler,csa,...
+        other transformap features included on each single preset
+
+    sobald ein Objekt nicht mehr einem preset entspricht, switcht er auf ein neues...
+      lässt sich das für chainloading missbrauchen?
+
+  how to add a new preset
+
+    add single presets in presets/${key}/${value}.json
+    if wanted, add it to presets/categories/provides_?
+
+      if any new fields used: 
+        add it to fields/${field-name}.json
+          valid types: 
+            - text     # self-explanatory 
+            - textarea # bigger textarea
+            - radio    # 
+                kann entweder: viele keys mit value=yes
+                oder ein key mit unterschiedlichen values
+            - combo    # normal dropdown for one key/many values
+            - access   # special : many dropdowns with same values on different keys
+            - address  # #special - works ONLY for addresses
+            - typeCombo # LINK-FORWARDER hidden as combo-box for generic keys -> when chosen, jumps to another preset! (sometimes??)
+                  hast no tags in field self, takes it from data/presets/presets/$KEY/*.json
+                    but each $VALUE.json can include fields, which can be typeCombos ... that can get ugly...
+                      presets/tm_chain_provides.json
+                        at first, "name"
+                        includes fields/provides_combotype.json
+                        there must be a folder data/presets/presets/provides/[123-n].json
+                          in each only the second question identity_combotype.json (and maybe the first?)
+                          when user chooses identity, iD should switch to data/presets/presets/identity/[123-n].json
+                            in e.g. commons.json all 3 combotypes, 
+                            leads to presets/interaction/[123-n].json
+                              there should be the "final" presets...
+
+            - number   # klar
+            - "tel",
+            - localized #used for name tags, offers "translate"
+            - check
+            - defaultcheck
+            - maxspeed # special: text with unit
+    add it to "defaults.json", if wished
+
+    "make" fügt die einzelnen .jsons in die großen (data/presets/presets.json, presets.yaml, 
+    git add all changed files 
+    git commit
+      

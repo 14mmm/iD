@@ -1,6 +1,9 @@
 {
     "icon": "hospital",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "operator",
         "building_area",
         "address"

@@ -1,6 +1,9 @@
 {
     "icon": "triangle",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "elevation"
     ],
     "geometry": [

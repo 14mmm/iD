@@ -1,36 +1,29 @@
-# iD - friendly JavaScript editor for [OpenStreetMap](http://www.openstreetmap.org/)
-
-[![Build Status](https://secure.travis-ci.org/openstreetmap/iD.png)](https://travis-ci.org/openstreetmap/iD)
+# iD - friendly JavaScript editor for [TransforMap](http://transformap.co/)
 
 ## Basics
 
-* iD is a JavaScript [OpenStreetMap](http://www.openstreetmap.org/) editor.
-* It's intentionally simple. It lets you do the most basic tasks while
-  not breaking other people's data.
-* It supports modern browsers. Data is rendered with [d3](http://d3js.org/).
+* iD is a JavaScript [OpenStreetMap](http://www.openstreetmap.org/) editor, adapted for TransforMap.
+* It's latest stable release is deployed on [http://editor.transformap.co](editor.transformap.co)
 
 ## Participate!
 
-* [Try out the latest stable release](http://openstreetmap.us/iD/release)
-* [Read up on Contributing and the code style of iD](CONTRIBUTING.md)
-* See [open issues in the issue tracker](https://github.com/openstreetmap/iD/issues?state=open) if you're looking for something to do
-* [Translate!](https://github.com/openstreetmap/iD/blob/master/CONTRIBUTING.md#translating)
+* Get in touch with TransforMap's techie circle here [on Discourse](http://discourse.transformap.co/c/engineering).
+* See [open issues in the issue tracker](https://github.com/TransforMap/iD/issues?state=open) if you're looking for something to do
 
-[![translation chart](https://www.transifex.com/projects/p/id-editor/chart/image_png)](https://github.com/openstreetmap/iD/blob/master/CONTRIBUTING.md#translating)
-## Installation
+## Developing
 
-To run the current development version, fork this project and serve it locally.
-If you have Python handy, just `cd` into the project root directory and run
+If you want to deploy a new version on editor.transformap.co:
 
-     python -m SimpleHTTPServer
-
-Or, with a Mac, you can enable Web Sharing and clone iD into your website directory.
-
-Come on in, the water's lovely. More help? Ping tmcw, jfire, or bhousel on IRC
-(`irc.oftc.net`, in `#osm-dev` or `#osm`) or on the OSM mailing lists.
-
-For guidance on building a packaged version, running tests, and contributing to
-development, see [CONTRIBUTING.md](CONTRIBUTING.md).
+* Get an account, ask here on [Discourse](http://discourse.transformap.co/t/id-editor-deployment-coordination/366/6).
+* clone this or a fork
+* edit
+* call "make", your changes get compiled into dist/
+* check out the "dist" branch: "git checkout dist"
+* the "dist" branch is simply a copy of the "dist/"-folder with compiled source
+* copy all files from dist/ into the /-folder of the "dist"-branch, commit.
+* git remote add update dokku@apps.ecobytes.net:id (needed only 1st time)
+* git push --set-upstream origin dist (needed only 1st time)
+* git push update dist:master
 
 ## License
 

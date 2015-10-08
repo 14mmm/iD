@@ -1,6 +1,10 @@
 {
     "icon": "library",
     "fields": [
+        "provides",
+        "topic",
+        "identity",
+        "interaction",
         "operator",
         "building_area",
         "address",
@@ -8,6 +12,7 @@
     ],
     "geometry": [
         "point",
+        "vertex",
         "area"
     ],
     "terms": [

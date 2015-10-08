@@ -1,0 +1,26 @@
+{
+    "fields": [
+        "description",
+        "provides",
+        "topic",
+        "identity",
+        "interaction",
+        "address",
+        "contact",
+        "organic",
+        "regional",
+        "fee"
+    ],
+    "geometry": [
+        "point",
+        "vertex",
+        "area"
+    ],
+    "tags": {
+        "club": "foodcoop",
+        "provides":"food+drink",
+        "regional":"yes",
+        "interaction":"buying_and_selling"
+    },
+    "name": "Food Coop"
+}

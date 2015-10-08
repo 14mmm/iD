@@ -2,6 +2,7 @@
     "key": "internet_access",
     "type": "combo",
     "label": "Internet Access",
+    "universal": true,
     "strings": {
         "options": {
             "yes": "Yes",

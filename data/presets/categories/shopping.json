@@ -1,0 +1,24 @@
+{
+    "geometry": "point",
+    "name": "Shopping / Dinner",
+    "icon": "restaurant",
+    "members": [
+        "amenity/marketplace",
+        "amenity/restaurant",
+        "amenity/bar",
+        "amenity/pub",
+        "amenity/cafe",
+        "amenity/biergarten",
+        "amenity/fast_food",
+        "amenity/community_centre",
+        "shop/art",
+        "shop/bakery",
+        "shop/bicycle",
+        "shop/books",
+        "shop/boutique",
+        "shop/butcher",
+        "shop/clothes",
+        "shop/convenience",
+        "shop"
+    ]
+}

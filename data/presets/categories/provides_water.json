@@ -1,0 +1,11 @@
+{
+    "geometry": "point",
+    "name": "Water",
+    "icon": "water",
+    "members": [
+        "amenity/drinking_water",
+        "amenity/fountain",
+        "natural/spring",
+        "provides/water"
+    ]
+}

@@ -1,0 +1,69 @@
+beginners mode mit gruen leuchtenden knoepfen, wo er der reihenfolge nach drücken muss
+        1. locate me
+        2. set point
+        3. click here to set a name
+        4. click here to set needs, identity, interaction
+
+
+which tags should be supported on default?
+
+name, description
+addr
+provides/topic
+identity
+interaction
+
+sed -i 's/"fields": \[/"fields": \[ \n        "provides",\n        "topic",\n        "identity",\n        "interaction",/' *
+sed -i 's/"fields": \[/"fields": \[ \n        "provides",\n        "identity",\n        "interaction",/'
+
+add vertex for:
+sed -i 's/"point",/"point",\n        "vertex",/' 
+
+extra fields:
+  contact data -OK
+  smoking -OK
+  wheelchair -OK
+  start_date -OK
+  fee -OK
+  access (members/public)
+  internet access -OK
+
+  organic -OK
+  regional -OK
+  fair_trade -OK
+
+  POI-Typen... (amenity,shop,landuse,club,...)
+
+  1st "Screen": 
+    • TransforMap Taxonomy
+      → guided Tour
+    • Classic OSM Object
+      → conventional things
+
+Todo:
+  how are translations handled?
+  default length of dropdown 4 → 8? -OK
+
+how to set "Main Tag" in OSM?
+
+Remove "Tutorial" questions, or replace with TransforMap tutorial
+
+Future:
+  Quick "Switch to OSM Mode" with full features
+  Photo upload - ends on other server (mediawiki?), sets link as "image" tag
+  adding of Events - ends on other server
+
+
+new presets needed
+  Tausch&Schenkregal (givebox) -> amenity=givebox -OK
+  Volkskueche -OK
+  csa-abholpunkt -OK
+  food-coop -OK
+
+todo: add all "club"
+  office=ngo
+
+
+bug:
+  if you forget the "category-" prefix when adding them to defaults.json, the JS throws an error.
+  amenity/doctor is inconsistent, should be doctors

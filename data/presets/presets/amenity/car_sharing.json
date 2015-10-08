@@ -1,6 +1,9 @@
 {
     "icon": "car",
     "fields": [
+        "provides",
+        "identity",
+        "interaction",
         "operator",
         "capacity"
     ],

@@ -1,6 +1,9 @@
 {
     "icon": "cemetery",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "identity",
+        "interaction",
         "religion",
         "denomination"
     ],

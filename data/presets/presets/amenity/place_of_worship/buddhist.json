@@ -1,6 +1,10 @@
 {
     "icon": "place-of-worship",
-    "fields": [
+    "fields": [ 
+        "provides",
+        "topic",
+        "identity",
+        "interaction",
         "denomination",
         "building_area",
         "address"

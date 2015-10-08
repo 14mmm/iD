@@ -1,0 +1,30 @@
+{
+    "key": "topic",
+    "type": "mcombo",
+    "label": "Topic of an Organisation",
+    "placeholder": "food+drink , water, land, ...",
+    "strings": {
+        "options": {
+            "food+drink" : "Food & Drink: Organisations that care about food/drink.",
+            "water" : "Water: Here you can find organisations who care about water.",
+            "land" : "Land: Here you can find organisations who care about land - the land we all need to find shelter and/or to work on.",
+            "mobility" : "Mobility: Here you find organisations who care about mobility.",
+            "health" : "Health: Here you find organisations that care about keeping and making us healthy.",
+            "culture" : "Culture: Organisations who care about culture.",
+            "safety" : "Safety: Organisations who care about security.",
+            "housing" : "Housing: Organisations who care about housing.",
+            "spaces" : "Free Space: Organisations which are concerned about open spaces.",
+            "objects_of_utility" : "Objects of Utility: Organisations devoted to objects of utility.",
+            "clothes" : "Clothes: Clothes-related organisations (traders,company HQs,charity organisations with focus on clothes).",
+            "learning_opportunities" : "Knowledge & Skills: Organisations devoted to science and education.",
+            "energy" : "Energy: Energy-focused organisations",
+            "community" : "Community: Community:-building and empowering organisations.",
+            "participation" : "Participation: Organisations who organise participation in various field.",
+            "spirituality" : "Spirituality: Spritiual organisations",
+            "telecommunication" : "Telecommunication: Organisations devoted to telecommunication",
+            "air" : "Air: Organisation caring about the air we all need to breathe.",
+            "environment" : "Environment: Environmentalism-related organisations"
+        }
+    },
+    "universal": true
+} 
